@@ -1,8 +1,11 @@
 # README
 
-This is a sample repo to set up an Agda virtual machine image.
+This is a sample repo to set up an Agda virtual machine image, for instance to
+distribute a proof with the associated theorem prover.
 
-This is currently unsupported and untested, I am trying to make this helpful.
+This is currently unsupported and semi-tested, I am trying to make this helpful
+but no guarantees. If you are looking for something easy to use which requires
+no fiddling, this is probably not for you and it might require additional effort.
 
 This material is released under MIT license.
 
