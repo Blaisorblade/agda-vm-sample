@@ -42,6 +42,8 @@ VBoxManage sharedfolder remove agdaVm --name vagrant
 
 (The shared folder name depends on Vagrant and might change on different releases.)
 
+Rationale: without this step, importing the VM might try recreating the shared folder with similar settings, which might fail for users causing a warning. Better to avoid the confusion.
+
 9. Export virtual machine `agdaVm` to `yourVm.ova`  with either the VirtualBox GUI or with command:
 
 ```
