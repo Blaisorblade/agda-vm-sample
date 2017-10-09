@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider :virtualbox do |vb|
     # # Don't boot with headless mode
     # vb.gui = true
-    vb.customize ["modifyvm", :id, "--memory", "1536", "--vram", "128", "--accelerate3d", "off", "--name", "agdaVm"]
+    vb.customize ["modifyvm", :id, "--memory", "3500", "--vram", "128", "--accelerate3d", "off", "--name", "agdaVm"]
     # A workaround for a bug: Without the following line VirtualBox
     # tries to write to a host system path that may not exist
     # (https://bugs.launchpad.net/cloud-images/+bug/1639732).
